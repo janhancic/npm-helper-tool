@@ -6,7 +6,7 @@ One of the early decisions we made, was to use the NPM scripts as our build "too
 
 An example of a standard way of developing NPM modules is to have a "build" and "test" NPM commands defined in the projects. This two commands allow a new developer to prepare a fresh project so it can be worked on, and it allows the developer to verify that everything still works. Many CI systems assume those commands to be available and run them by default on Node projects.
 
-A typical project will therefore have many command scripts defined, and many of those commands will be the same across many projects we develop.
+A typical project will therefore have many command scripts defined, and many of those commands will be the same across many projects we develop. **We want to provide a solution to make managing this scripts easier**
 
 ## Avoiding copy & paste
 
