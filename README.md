@@ -21,6 +21,7 @@ The tool should:
 - maintain the standard way of building NPM modules (have npm `build`, `test` and `serve` commands for example)
 - minimise the amount of boilerplate developers need to write
 - take advantage of the full set of tools NPM provides (package.json config, ...)
+- allow developers to specify versions of the tools they are using (instead of that being defined by "uber")
 - allow easy quick customisation of tools via command line arguments (which browsers to use for testing for example)
 - allow developers to override commands with their own (don't want to use mocha for testing, that's perfectly fine for example)
 - make it easy for projects to be updated when we change "uber"
