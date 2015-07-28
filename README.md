@@ -25,3 +25,9 @@ The tool should:
 - allow easy quick customisation of tools via command line arguments (which browsers to use for testing for example)
 - allow developers to override commands with their own (don't want to use mocha for testing, that's perfectly fine for example)
 - make it easy for projects to be updated when we change "uber"
+
+## Proposed solution
+
+Create a tool that will synchronise a project's `package.json` file with some other `package.json` file (provided as a command line argument). This tool would work in an interactive way (same as `npm init`) where it would ask the developer questions such as "do you want to add this script command?" or "do you want to replace this script command?".
+
+With this solution we achieve all of the above mentioned requirements as all we do is help developer write the `package.json` file and nothing else. The developer is in full control.
